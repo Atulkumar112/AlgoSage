@@ -16,3 +16,21 @@ public class pattern1{
     } 
   }
 }
+
+//with recursion 
+public class pattern1{
+  static void firstPattern(int n){
+    if(n==0){
+      return;
+    }
+    firstPattern(n-1);
+    for(int i=1; i<=n; i++){
+      System.out.print(" "+ i);  
+    }
+    System.out.println();
+  }
+  public static void main(String[] args) {
+    int n = 5;
+    firstPattern(n);
+  }
+}

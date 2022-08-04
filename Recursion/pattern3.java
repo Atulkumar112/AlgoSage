@@ -3,7 +3,6 @@
 //  1 2 3 
 //  1 2 
 //  1
-//  1
 //  1 2
 //  1 2 3
 //  1 2 3 4
@@ -33,7 +32,8 @@ public class practicing{
 //with Recursion 
 public class practicing{
   static void firstPattern(int n){
-    if(n==0){
+    if(n==1){
+      System.out.println(" "+n);
       return;
     }
     for(int i=1; i<=n; i++){
@@ -48,8 +48,6 @@ public class practicing{
       System.out.print(" "+ j);
     }
     System.out.println();
-    
-    
   }
   public static void main(String[] args) {
     int n = 5;

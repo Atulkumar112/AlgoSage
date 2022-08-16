@@ -1,6 +1,6 @@
 class Solution {
     public int firstUniqChar(String s) {
-//  12 ms runtime this is the best solution ...
+//  10 ms runtime this is the best solution ...
         int freq [] = new int[26];
       //this loop updating the value at a character position
         for(int i = 0; i < s.length(); i ++){

@@ -6,11 +6,11 @@ public class Practice {
       return true;
     }
     
-    if(arr[i] < arr[i+1]){
-      return checkReverse(arr, len, i+1);
+    if(arr[i] >= arr[i+1]){
+      return false;
     }
     else{
-      return false;
+      return checkReverse(arr, len, i+1);
     }
   }
   public static void main(String[] args) {

@@ -32,5 +32,4 @@ public class Practice {
   }
 }
 
-
 //time complexity = O(n + n) = O(2n) = O(n).

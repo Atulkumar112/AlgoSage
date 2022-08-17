@@ -18,3 +18,4 @@ public class Practice {
     System.out.println(checkReverse(arr, arr.length, 0));
   }
 }
+

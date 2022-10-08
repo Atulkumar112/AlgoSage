@@ -60,4 +60,5 @@ Roll no:  180     name:   Mary
 --> .containsKey(_);   return boolean value
 --> .size()  get length of map
 --> .get(_key_);  get the value of a given key
---> 
+--> .getOrDefault(key, 0); this method is used when we have doubt like HashMap have not key then it will return a default value 
+which we assigned 0

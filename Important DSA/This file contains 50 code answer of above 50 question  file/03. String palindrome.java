@@ -13,5 +13,12 @@ public class LC {
 		}
 		
 		System.out.println(ans);
+		
+		if(s.equals(ans)) {
+			System.out.println("It is a palindrom string");
+		}
+		else {
+			System.out.println("It isn't");
+		}
 	}
 }

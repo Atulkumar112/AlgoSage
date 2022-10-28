@@ -62,3 +62,21 @@ Roll no:  180     name:   Mary
 --> .get(_key_);  get the value of a given key
 --> .getOrDefault(key, 0); this method is used when we have doubt like HashMap have not key then it will return a default value 
 which we assigned 0
+--> hm.computeIfAbsent(key, k -> new ArrayList()).add(arr[i]);
+EX:- -------
+  class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> hm = new HashMap<>();
+        
+        for(int i=0; i<strs.length; i++){
+            char[] ch = strs[i].toCharArray();
+            Arrays.sort(ch);
+            String key = new String(ch);
+            
+            hm.computeIfAbsent(key, k -> new ArrayList()).add(strs[i]);
+        }
+        
+        return new ArrayList(hm.values());
+    }
+}
+Output:- [[eat, tea, ate], [bat], [tan, nat]]

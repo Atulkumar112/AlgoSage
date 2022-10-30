@@ -30,13 +30,19 @@ public class Practice {
         return newNode;
       }
     
+      static int totalNode=0;
       public static int countNodes(Node root) {
     	  if(root == null) {
     		  return 0;
     	  }
-    	  int leftNodes = countNodes(root.left);
+    	  /*int leftNodes = countNodes(root.left);
     	  int rightNodes = countNodes(root.right);
-    	  return leftNodes + rightNodes + 1;
+    	  return leftNodes + rightNodes + 1;  */
+        //--------OR------------
+        totalNodes++;
+        countNodes(root.left);
+    	  countNodes(root.right);
+    	  return totalNodes;
       }
     
       // main method

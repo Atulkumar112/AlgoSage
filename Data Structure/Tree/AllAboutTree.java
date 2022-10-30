@@ -1,8 +1,10 @@
+package com.cg.java;
+
 import java.util.*;
 
-public class BinaryTree {
+public class Practice {
       
-  //Defining a tree node
+  //Defining a tree node with created a nested class
       static class Node{
           int data;
           Node left;
@@ -17,6 +19,7 @@ public class BinaryTree {
       
       
       static int i=-1;
+      //for building a tree
       public static Node buildTree(int[] arr){
         
         i++;
@@ -56,10 +59,34 @@ public class BinaryTree {
       
       //level order traversal
       public static void levelOrder(Node root){
-        Queue<Integer> q = new LinkedList<>();
-        
+		  if(root == null) return;
+		  Queue<Node> q = new LinkedList<>();
+	  	q.add(root);
+	  	q.add(null);
+	  	while(!q.isEmpty()) {
+	  		Node currNode = q.remove();
+	  		if(currNode == null) {
+	  			System.out.println();
+	  			if(q.isEmpty()) {
+	  				break;
+	  			}
+	  			else {
+	  				
+	  				q.add(null);
+	  			}
+	  			
+	  		}
+	  		else {
+	  			System.out.print(currNode.data+" ");
+	  			if(currNode.left != null) {
+	  				q.add(currNode.left);
+	  			}
+	  			if(currNode.right != null) {
+	  				q.add(currNode.right);
+	  			}
+	  		}
+	  	}
       }
-      
       
       // main method
       public static void main(String[] args) {
@@ -73,21 +100,34 @@ public class BinaryTree {
         */
       int[] arr = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
       Node root = buildTree(arr);
-      // System.out.println(root.data);
+       System.out.println("Root of the tree is:- "+root.data);
       System.out.println("Preorder");
       preorder(root);
       System.out.println(" ");
       System.out.println("Inorder");
       inorder(root);
-      System.out.println(" ");
+      
+      System.out.println("");
       System.out.println("Postorder"); 
       postorder(root);
+      
+      System.out.println("");
+      System.out.println("Printing the tree as a level vise.....");
+      levelOrder(root);
+      
       
   }
 }
 
-
-
-
-
-
+//------------------------------------------------------------Outputs-------------------------------------------------------------
+Root of the tree is: 1
+Preorder
+1 2 4 5 3 6  
+Inorder
+4 2 5 1 3 6 
+Postorder
+4 5 2 6 3 1 
+Printing the tree as a level vise.....
+1 
+2 3 
+4 5 6 

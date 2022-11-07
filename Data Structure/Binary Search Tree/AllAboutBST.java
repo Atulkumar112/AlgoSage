@@ -132,6 +132,15 @@ public class Practice {
   }
 }
 
+//--> Deleting a Node from a tree is most important it asked most of the times in maang interviews...
+/* so it have 3 cases to deleting a node, you can see the code from  52 - 87 line. i mentioned all these 3 cases so now let me explan it better.
+-->Case first(Easy case):- when we need to deleting a node which have both children are null then we just return null value.
+-->Case Second:- when we need to deleting a node which have right child is null or we have right child is null, means one is a null child then we just return to another 
+child.. let example if root.left = null then return root.right or vise varsa.
+-->Case Third(Most important case):- when we have to delete that node which have both children then just go to it right side at once and then move it to left side till
+we got null value then return the last left node before the null. 
+*/
+
 
 
 

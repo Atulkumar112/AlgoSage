@@ -31,3 +31,22 @@ public class GroupDis {
 		return add(a, b);
 	}
 }
+
+/////-------------------------------------------------------------------3rd way and easy way------------------------------
+package com.cg.java;
+
+public class GroupDis {
+
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 3;
+		
+		for(int  i=1; i<=a; i++) {
+			if(b>0) {
+				a++;      // i am not using here any + or - oparator ... these ++ and -- are the increment and decrement things
+				b--;
+			}
+		}
+		System.out.println(a);
+	}
+}

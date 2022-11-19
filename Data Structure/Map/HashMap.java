@@ -81,3 +81,9 @@ which we assigned 0
   }
   Input:- strs = ["eat","tea","tan","ate","nat","bat"]
   Output:- [[eat, tea, ate], [bat], [tan, nat]]
+  
+ ---> .keySet() method for getting all key of hash map.............->
+    Ex:-- for(int key: map.keySet()){
+              if(map.get(key) !=0 ) return false;    
+          }
+

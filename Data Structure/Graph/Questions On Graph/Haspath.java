@@ -70,6 +70,9 @@ public class Practice {
 
 
 
+//.........
+
+
 /* input is:---------
 7
 8
@@ -87,4 +90,4 @@ public class Practice {
 */
 
 // --------------------output
-true
+//true

@@ -87,3 +87,7 @@ which we assigned 0
               if(map.get(key) !=0 ) return false;    
           }
 
+----> //Arrays.asList()....... actually it is the part of arrayList but we can use this thing for adding multiple values in a same key as a same time..
+  Ex:-
+    Map<String, List<String>> hm = new HashMap<>();
+    hm.put("name", Arrays.asList("Atul", "Kumar", "Saini"));   // in this we have one key which is name and containing the 3 values i.e, atul, kumar, saini

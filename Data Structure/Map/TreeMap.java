@@ -76,3 +76,10 @@ below is sorted decending order..............
 30 --> deepak
 10 --> utsav
 */
+
+/*
+--> tm.floorEntry() method :- TreeMap. floorEntry() method is used to return a key-value mapping associated with the greatest key 
+less than or equal to the given key, or null if there is no such key.
+--> tm.lastEntry() Method:- TreeMap. lastEntry() method is used to returns the key-value mapping associated with the greatest key 
+in this map, or null if the map is empty.
+*/

@@ -91,3 +91,25 @@ which we assigned 0
   Ex:-
     Map<String, List<String>> hm = new HashMap<>();
     hm.put("name", Arrays.asList("Atul", "Kumar", "Saini"));   // in this we have one key which is name and containing the 3 values i.e, atul, kumar, saini
+
+----> //if you want to update the value of a key or we can say like if you want to increase the occurance in value of the key then you can use getOrDefault() method
+  // Ex
+
+public class GroupDis {	
+	public static void main(String[] args) {	
+		int[] arr = new int[] {15,22,22,15,15,37};
+    
+    HashMap<Integer, Integer> hm = new HashMap<>();
+		 for(int i=0; i<arr.length; i++) {
+			 hm.put(arr[i], hm.getOrDefault(arr[i], 0)+1);  // if we found key the it will ++ otherwise it will asign as only one occurance
+		 }
+		 
+		 for(Map.Entry m: hm.entrySet()) {
+			 System.out.println(m.getKey()+" --> "+m.getValue());
+     }	
+} 
+ // output 
+37 --> 1
+22 --> 2
+15 --> 3
+

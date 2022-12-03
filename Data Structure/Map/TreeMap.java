@@ -1,5 +1,6 @@
 /*
---> treeMap is also same as hash map but like hash map stored the values as randomly but treemap stored the values as sorted form (Ascending order). 
+//treemap stored the sorted by key. not a value.
+--> treeMap is also same as hash map but like hash map stored the values as randomly but treemap stored the keys as sorted form (Ascending order). 
 -->Treemap is slow as compare to hashmap because it takes the time O(logn) to add, remove delete while hashmap taken the time O(1) to all these steps.
 -->if you want to store the all key as a desending order so you have to use collection framwork
 ex:- TreeMap<Integer, String> tm = new TreeMap<>();   // for Ascending order by default

@@ -113,3 +113,20 @@ public class GroupDis {
 22 --> 2
 15 --> 3
 
+	
+//----------------------------Printing the hashmap using for Each loop------------------
+Ex:------	
+Map<Integer, String> hm = new HashMap<>();
+hm.put(1, "atul");
+hm.put(2, "java");
+hm.put(3, "python");
+hm.put(4, "c++");
+	
+hm.forEach((k,v) -> System.out.println("Key = " + k + ", value = "+ v));
+//-->>Output
+/*
+Key = 1, value = atul
+Key = 2, value = java
+Key = 3, value = python
+Key = 4, value = c++   */
+

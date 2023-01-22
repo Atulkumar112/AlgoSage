@@ -1,3 +1,6 @@
+//GCD:- In Greatest common divisor, we need to find the max value which can be divide completly of given both values.
+//ex:- a=27, b=3 so here 1 and 3 are only two digits who can divide completly of these a and b number so we take the maximum value which is 3 to answer would be 3.
+
 public class LC {
 
       public static void main(String[] args) {

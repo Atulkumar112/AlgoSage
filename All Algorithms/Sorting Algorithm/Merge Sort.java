@@ -10,10 +10,10 @@ sort in case of smaller array size or datasets. Sorting method : The quick sort 
 public class MergeSort {
 	//Conqure, it's taken the O(n) time complexity 
 	public static void conqure(int[] arr, int si, int mid, int ei) {
-		int[] merged = new int[ei-si+1];
-		int idx1 = si;
-		int idx2 = mid+1;
-		int x = 0;
+		int[] merged = new int[ei-si+1];   // this is temp array which will contains the sorted element in every moment
+		int idx1 = si;  // this is for first half array
+		int idx2 = mid+1;   // this is for another half array
+		int x = 0;  // this is for itrating in merged array 
 		
 		while(idx1<=mid && idx2<=ei) {
 			if(arr[idx1]<=arr[idx2]) {

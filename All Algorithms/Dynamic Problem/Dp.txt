@@ -1,1 +1,4 @@
 Dynamic Problem:- Dp is nothing but it's says "Don't repeate subproblems". It's have two types. 1 is Memoization and 2nd is Tebulation.
+
+Memoization:- Memoization is a Top-Down approach which is flow from n to 0;
+Tabulation:- It's a Buttom-Up approach which have flow from 0 to n;

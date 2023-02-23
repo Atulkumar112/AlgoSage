@@ -1,0 +1,1 @@
+Dynamic Problem:- Dp is nothing but it's says "Don't repeate subproblems". It's have two types. 1 is Memoization and 2nd is Tebulation.

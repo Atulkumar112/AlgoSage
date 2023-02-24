@@ -14,13 +14,30 @@ public class GroupDis {
 		ts.add(0);
 		ts.add(1);
 		ts.add(1);
+		ts.add(3);
 		ts.add(2);
 		Iterator<Integer> itr =ts.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
+		System.out.println(ts.first());
+		System.out.println(ts.last());
+		// here also you can use pollFirst() and pollLast() for get and remove both thing
+		// in once move.
 	}	
 }
 
+
+/*
+output:-
+0
+1
+2
+3
+0
+3
+
+
+*/
 
 

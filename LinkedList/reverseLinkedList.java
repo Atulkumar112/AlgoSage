@@ -76,6 +76,23 @@ public class Practice {
 	   head = prevNode;
 	   
 	  }
+	
+	
+	// we can also reverse our linked list like this----
+// 	public static Node letReverse(Node head){
+//         Node prev=null, curr=head, next=null;
+        
+//         while(curr!=null){
+//             next = curr.next;
+//             curr.next = prev;
+//             //updat
+//             prev = curr;
+//             curr = next;
+            
+//         }
+        
+//         return prev;
+//    }
   public static void main(String[] args) {
     Practice list = new Practice();
     list.addLast(1);

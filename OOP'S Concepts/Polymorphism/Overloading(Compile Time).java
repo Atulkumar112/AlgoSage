@@ -3,6 +3,9 @@
  * Below is the example of compile time polymorphism which is also known as Overloading
  * method in java. It's happens when method have same name but we given the diff. 
  * type parameters in it. 
+ 
+ //overloading / compile time polymorphysm:- we can say that Method overloading is a concept of Java in which we can create multiple 
+ methods of the same name in the same class, and all methods work in different ways.
  */
 
 class Student{

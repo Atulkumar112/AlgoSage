@@ -33,6 +33,9 @@
 - Map
 - Trie
 
+▪️If asked for find minimum k integer within  k times
+- Binary Search
+
 ▪️Else
 - Map/Set for O(1) time & O(n) space
 - Sort input for O(nlogn) time and O(1) space

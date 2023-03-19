@@ -20,6 +20,8 @@ public class GroupDis {
 		hs.add(34);
 		hs.add(5);
 		
+		System.out.println("size of set:- " + hs.size());
+		
 		Iterator<Integer> itr = hs.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());

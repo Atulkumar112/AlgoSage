@@ -6,6 +6,7 @@ sb.length();  //output:- 10
 sb.append(" saini");  //output:- Atul Kumar Saini
 sb.delete(0,3);  //output:- l kumar saini
 sb.deleteCharAt(2);  // output:- Atl kumar saini
+sb.reverse(); //output:- inias ramuK lutA
 try{
     sb.delete(-1,40);    
 }

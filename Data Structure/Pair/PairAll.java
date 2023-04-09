@@ -1,3 +1,20 @@
+// Or we can also use pair DS for using pair class
+class Pair{
+  int a;
+  int b;
+  void Pair(int a, int b){
+      this.a=a;
+      this.b=b;
+  }
+}
+public class myClass{
+  public static void main(String[] args){
+      List<Pair> list = new ArrayList<>();
+    list.add(new Pair(5, 10));
+    
+  }
+}
+
 //-->Pair is class in java. with the help of this we can add a pair 
 Pair<String, Integer> p = new Pair<String, Integer>("Atul", 123);
 

@@ -14,5 +14,8 @@ catch (Exception e){
     System.out.println("what is the error:- "+e);   //output:- what is the error:- java.lang.StringIndexOutOfBoundsException: start -1, end 16, length 16
 }
 
-//convertinf from stringbuilder to string again
-String ans = new String(sb);
+// for adding the element at the 0th index
+sb.insert(0, "atul");
+
+//converting from stringbuilder to string again
+String ans = new String(sb);  or String s = sb.toString();

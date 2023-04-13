@@ -1,3 +1,4 @@
+// i done this also quetion by my own within 5-7 minutes
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> st = new Stack<>();

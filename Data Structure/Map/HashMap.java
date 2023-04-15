@@ -16,6 +16,9 @@ public class Main {
     for(Map.Entry m: map.entrySet()){
       System.out.println(m.getKey()+"-->"+m.getValue());
     }
+	  
+//-----OR we can also print the hashmap using toString method
+	System.out.println(map.toString());   //  {atul=1, utsav=2, ritesh=3}
   
   
     String[] ans = new String[map.size()];  
@@ -112,6 +115,7 @@ public class GroupDis {
 37 --> 1
 22 --> 2
 15 --> 3
+	
 
 	
 //----------------------------Printing the hashmap using for Each loop------------------

@@ -1,4 +1,5 @@
 //Just for Example **************************************************
+// HashMap store the random keys. 
 import java.util.*;
 
 public class Main {

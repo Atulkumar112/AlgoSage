@@ -1,4 +1,4 @@
-//LinkedHashMap is very useful when you need to store the key values as a insrting order in map. HashMap and TreeMap are stroed the keys as a random order
+//LinkedHashMap is very useful when you need to store the key values as a insrting order in map. HashMap is stroed the keys as a random order.
 //Example:- 
 class Solution
 {

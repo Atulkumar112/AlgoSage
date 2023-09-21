@@ -1,7 +1,11 @@
-# Ds and Algorithm and all coding question
-![Competitive-Programming-1](https://user-images.githubusercontent.com/57915384/202915996-f90e060e-b6e2-4750-836a-b2bd906e3e50.jpg)
+##AlgoSage: Your Coding Companion 📚
 
-![leetcode](https://user-images.githubusercontent.com/57915384/204145961-e5dab670-a329-4ecd-9ebf-e762f047d1a6.png)
-![gfg](https://user-images.githubusercontent.com/57915384/204146062-07899ffe-39dd-45fe-b2a5-9cb7cb5dcd16.jpg)
-![codingninja](https://user-images.githubusercontent.com/57915384/204145971-1b5ae9e0-43d9-4848-8fc9-a90a7ed78953.jpg)
+Explore a treasure trove of Data Structures and Algorithms (DSA) notes, as well as solutions to coding challenges from LeetCode, GeeksforGeeks, Codeforces, and CodingNinja. With over 573+ commits, this repository is a comprehensive resource for sharpening your coding skills and mastering the art of problem-solving. Dive into the world of algorithms, expand your knowledge, and become a true AlgoSage. 💡💻
 
+-📖 DSA Notes
+-🏆 LeetCode Solutions
+-🎯 Codeforces Solutions
+-📚 GeeksforGeeks Challenges
+-👩‍💻 CodingNinja Problems
+
+Start your coding journey today and reach new heights with AlgoSage!

@@ -22,3 +22,8 @@ String ans = new String(sb);  or String s = sb.toString();
 
 // For removing the last element in the stringbuilder
 sb.setLength(sb.length() - 1);
+
+// Compare two stringbuilder in java:- There are two ways to compare sb in java
+1. sb1.toString().equals(sb2.toString());
+2. (sb1.compareTo(sb2) == 0);
+

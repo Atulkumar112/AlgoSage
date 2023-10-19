@@ -19,3 +19,6 @@ sb.insert(0, "atul");
 
 //converting from stringbuilder to string again
 String ans = new String(sb);  or String s = sb.toString();
+
+// For removing the last element in the stringbuilder
+sb.setLength(sb.length() - 1);
